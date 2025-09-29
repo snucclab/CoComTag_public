@@ -58,7 +58,7 @@ python LLM_label_with_kappa_subfacet.py
 - input: CSV files from: "result/FCDS/", "result/IDS/", "result/IDS2/"
 - output: Adds a "final_label" column (subfacet code: sf1(a)–sf6(f)) to each file, Output is saved in the result folders: "merge_result/FCDS/", "merge_result/IDS/", "merge_result/IDS2/"
 
-before you run the following code, modify the extrace_final_label.py file following the inline comments.
+** before you run the following code, modify the extrace_final_label.py file following the inline comments.
 ```bash
 python merge_result/extract_final_label.py
 ```
@@ -68,7 +68,8 @@ python merge_result/extract_final_label.py
 Maps subfacet predictions (final_label) to higher-level facets (facet = f1–f3).
 - input: CSV files from: "merge_result/FCDS/", "merge_result/IDS/", "merge_result/IDS2/" (must contain the "final_label" column)
 - output: Adds "facet" column to each file, Saved in-place in the same folders: "merge_result/FCDS/", "merge_result/IDS/", "merge_result/IDS2/"
-before you run the following code, modify the make_facet.py file following the inline comments.
+
+** before you run the following code, modify the make_facet.py file following the inline comments.
 ```bash
 python statistic/preproc/make_facet.py
 ```
@@ -96,7 +97,7 @@ Compares the count or ratio of collaborative utterances (Overall level):
   "statistic/collaboration_boxplot_ratio.png" (if NORMALIZE = True)   
   "statistic/collaboration_boxplot_count.png" (if NORMALIZE = False)   
 
-before you run the following code, modify the cal_overall_frequency.py file following the inline comments.
+** before you run the following code, modify the cal_overall_frequency.py file following the inline comments.
 ```bash
 python statistic/cal_overall_frequency.py
 ```
@@ -120,7 +121,7 @@ Compares the count or ratio of utterances per facet (f1-f3) or subfacet (sf1(a)-
     "statistic/subfacet_ratio_boxplot.png"  
     "statistic/subfacet_count_boxplot.png"   
 
-before you run the following code, modify the cal_facet_frequency.py file following the inline comments.
+** before you run the following code, modify the cal_facet_frequency.py file following the inline comments.
 ```bash
 python statistic/cal_facet_frequency.py
 ```
