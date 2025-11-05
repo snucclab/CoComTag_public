@@ -1,6 +1,7 @@
 # Capturing Collaborative Competency with GPT-4o and ENA [(Paper)](https://repository.isls.org/handle/1/11963)
 
-# CoComTag
+This is the public repository for the code of **CoComTag** from **Capturing Collaborative Competency with GPT-4o and ENA** (CSCL 2025)
+
 
 ## 1. Installation
 
