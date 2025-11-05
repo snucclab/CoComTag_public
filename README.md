@@ -1,3 +1,5 @@
+# Capturing Collaborative Competency with GPT-4o and ENA [(Paper)](https://repository.isls.org/handle/1/11963)
+
 # CoComTag
 
 ## 1. Installation
